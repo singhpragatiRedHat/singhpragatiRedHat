@@ -1,5 +1,41 @@
 # Linux System Admin Command
 
+# Basic Linux commands   Command and Description
+
+
+<li> ls	                                                              =>>  Lists all files and directories in the present working directory
+<li> ls-R	                                                          =>>  Lists files in sub-directories as well
+<li> ls-a	                                                          =>>  Lists hidden files as well
+<li> ls-al	                                                          =>>  Lists files and directories with detailed information like permissions,size, owner, etc.
+<li> cd or cd ~	                                                      =>>  Navigate to HOME directory
+<li> cd ..	                                                          =>>  Move one level up
+<li> cd	                                                              =>>  To change to a particular directory
+<li> cd /	                                                          =>>  Move to the root directory
+<li> cat > filename	                                                  =>>  Creates a new file
+<li> cat filename	                                                  =>>  Displays the file content
+<li> cat file1 file2 > file3	                                      =>>      Joins two files (file1, file2) and stores the output in a new file (file3)
+<li> mv file "new file path"	                                      =>>      Moves the files to the new location
+<li> mv filename new_file_name                                        =>>   Renames the file to a new filename
+<li> sudo	                                                          =>>  Allows regular users to run programs with the security privileges of the superuser or root
+<li> rm                                                               =>>   filename	Deletes a file
+<li> man	                                                          =>>      Gives help information on a command
+<li> history	                                                      =>>      Gives a list of all past commands typed in the current terminal session
+<li> clear	                                                          =>>  Clears the terminal
+<li> mkdir directoryname	                                          =>>      Creates a new directory in the present working directory or a at the specified path
+<li> rmdir	                                                          =>>  Deletes a directory
+<li> mv	                                                              =>>  Renames a directory
+<li> pr -x	                                                          =>>  Divides the file into x columns
+<li> pr -h	                                                          =>>  Assigns a header to the file
+<li> pr -n	                                                          =>>  Denotes the file with Line Numbers
+<li> lp -nc , lpr c	Prints "c"                                        =>>  copies of the File
+<li>  lp-d lp-P 	                                                  =>>       Specifies name of the printer
+<li> apt-get 	                                                           =>>   Command used to install and update packages
+<li> mail -s 'subject' -c 'cc-address'   -b 'bcc-address' 'to-address'     =>>   	Command to send email
+<li> mail -s "Subject" to-address < Filename 	                         =>>    Command to send email with attachment
+
+
+	
+	
 # Commands and its function Function
 
 
